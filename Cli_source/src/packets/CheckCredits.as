@@ -1,0 +1,24 @@
+﻿// Decompiled by AS3 Sorcerer 1.99
+// http://www.as3sorcerer.com/
+
+//packets.CheckCredits
+
+package packets{
+import packets.others._R_q;
+
+import flash.utils.IDataOutput;
+
+    public class CheckCredits extends _R_q {
+
+        public function CheckCredits(_arg1:uint){
+            super(_arg1);
+        }
+        override public function writeToOutput(_arg1:IDataOutput):void{
+        }
+        override public function toString():String{
+            return (formatToString("CHECKCREDITS"));
+        }
+
+    }
+}//package packets
+
